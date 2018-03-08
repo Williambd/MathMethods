@@ -1,7 +1,7 @@
 /*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
+ * Made by WilliamBD
+ * On 08/03/2018
+ * To demonstrate various java.lang.Math methods
  */
 
 package mathmethods;
