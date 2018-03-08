@@ -36,29 +36,31 @@ public class MathMethods {
         //multiplies the original balance by e to the power of r*t, computing interest
         b = b*Math.exp(r*t);
         
-        
+        //outputs balance
         System.out.println("The final balance will be $"+b+"\n");
         
         //Calculate the height of a building based on a shadow length
         System.out.println("Building Height Calculation:");
         
-        System.out.println("Input angle of the sun from horizontal in degrees");
+        //takes angle of sun in degrees, converts to radians
+        System.out.println("Input angle of the sun from ground in degrees");
         double a = scanner.nextDouble();
         a = Math.toRadians(a);
         
+        //takes angle of shadow
         System.out.println("Input shadow length:");
         double l = scanner.nextDouble();
         
+        //finds the side of opposite (aka the building)
         double h = (Math.tan(a)*l);
         System.out.println("The object is "+h+" units high \n");
         
-        //Positive or negative
-        
+        //Positive or negative finder
         //gets the number
         System.out.println("input a number");
         double num = scanner.nextDouble();
         
-        //finds out the sign
+        //finds out the sign then outputs accordingly
         num = Math.signum(num);
         if (num == 1){
             System.out.println("Yo numba be positive");
