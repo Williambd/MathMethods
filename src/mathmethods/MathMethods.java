@@ -19,7 +19,7 @@ public class MathMethods {
      */
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
-        System.out.println("Continuous compound interest calculation: \n");
+        System.out.println("Continuous compound interest calculation:");
         
         //takes initial deposit
         System.out.println("Input initial deposit in $");
@@ -37,10 +37,10 @@ public class MathMethods {
         b = b*Math.exp(r*t);
         
         
-        System.out.println("The interest will be $"+b);
+        System.out.println("The final balance will be $"+b+"\n");
         
         //Calculate the height of a building based on a shadow length
-        System.out.println("Building Height Calculation: \n");
+        System.out.println("Building Height Calculation:");
         
         System.out.println("Input angle of the sun from horizontal in degrees");
         double a = scanner.nextDouble();
@@ -50,7 +50,7 @@ public class MathMethods {
         double l = scanner.nextDouble();
         
         double h = (Math.tan(a)*l);
-        System.out.println("The object is "+h+" units high");
+        System.out.println("The object is "+h+" units high \n");
         
         //Positive or negative
         
